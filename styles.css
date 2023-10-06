@@ -50,7 +50,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 70vh;
     background-color: #1F2937;
 }
 
@@ -91,4 +91,35 @@ button {
 .hero-content {
     display: flex;
     max-width: 1040px;
+}
+
+.page-2 {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-2-title {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+}
+
+.card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.text {
+    text-align: center;
 }
