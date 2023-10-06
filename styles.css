@@ -51,13 +51,44 @@ a {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: #1F2937;
 }
 
 .hero-main-text {
     width: 400px;
     margin: 0 200px;
+
 }
+
+.hero-main-text > h2 {
+font-size: 48px;
+font-weight: 900;
+color: #F9FAf8;
+}
+
+.hero-main-text > p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    margin-top: 12px;
+    padding: 8px 28px;
+    background-color: #3882F6;
+    color: #F9FAf8;
+    border-radius: 6px;
+    border: none;
+}
+
 
 .hero-image {
     width: 400px;
+    height: 200px;
+    background-color: lightslategray;
+    color: #F9FAf8;
+}
+
+.hero-content {
+    display: flex;
+    max-width: 1040px;
 }
