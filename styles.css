@@ -94,7 +94,7 @@ button {
 }
 
 .page-2 {
-    min-height: 50vh;
+    min-height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -124,4 +124,10 @@ button {
 
 .text {
     text-align: center;
+}
+
+.box {
+    border-color: #3882F6;
+    border-style: solid;
+    height: 48px;
 }
