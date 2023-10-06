@@ -55,14 +55,6 @@ a {
     background-color: #1F2937;
 }
 
-.hero-main-text {
-    /* width: 400px; */
-    /* gap: 25px; */
-    /* margin: 0 200px; */
-    /* margin-left: auto; */
-
-}
-
 .hero-main-text > h2 {
 font-size: 48px;
 font-weight: 900;
@@ -90,6 +82,12 @@ button {
     height: 200px;
     background-color: lightslategray;
     color: #F9FAf8;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-content {
