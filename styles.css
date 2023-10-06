@@ -8,6 +8,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     min-height: 100vh;
+    
 }
 
 
@@ -55,8 +56,10 @@ a {
 }
 
 .hero-main-text {
-    width: 400px;
-    margin: 0 200px;
+    /* width: 400px; */
+    /* gap: 25px; */
+    /* margin: 0 200px; */
+    /* margin-left: auto; */
 
 }
 
@@ -69,6 +72,7 @@ color: #F9FAf8;
 .hero-main-text > p {
     font-size: 18px;
     color: #e5e7eb;
+    width: 500px;
 }
 
 button {
@@ -90,7 +94,8 @@ button {
 
 .hero-content {
     display: flex;
-    max-width: 1040px;
+    max-width: 1082px;
+    gap: 200px;
 }
 
 .page-2 {
@@ -172,7 +177,7 @@ button {
 }
 
 .cta-content {
-    color: #F9FAf8;
+    color: #e5e7eb;
 }
 
 .cta-header {
@@ -183,4 +188,16 @@ button {
 
 .cta-button > button {
     border-style: solid;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    background-color: #1F2937;
+}
+
+.footer > p {
+    color: #e5e7eb;
 }
